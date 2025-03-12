@@ -1,0 +1,79 @@
+
+.puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 1px; /* Adjust the gap to simulate a single border */
+    border: 1px solid black; /* Outer border for the puzzle container */
+    background-color: #333; /* Border color for the gaps */
+}
+
+.puzzle-piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Adjust background color to show gaps */
+    cursor: pointer;
+}
+
+#rows-container .puzzle-piece{
+    height: 40px;
+}
+
+
+@keyframes flash {
+    0%,50%,100% { opacity:100; }
+    25%,75% { opacity:0; }
+}
+
+.highlight {
+    animation: flash .5s ease-out;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#statistics {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #f9f9f9;
+    display: inline-block; /* Center the stats in the modal */
+}
+
+#statistics h3 {
+    margin: 0 0 10px;
+}
+
+#statistics p, #statistics ul {
+    margin: 5px 0;
+}
+
+#statistics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.puzzle-piece{
+    border: 2px solid rgb(211, 214, 218);
+}
+#rows-container .puzzle-piece{
+    height: 40px;
+    
+}
+.honk{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
