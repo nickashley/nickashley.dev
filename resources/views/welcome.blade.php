@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>NickAshley.com - CTO Mindset. Developer Skillset.</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +25,9 @@
                 <a class="flex-1 min-w-0 px-4 py-4" href="/projects">Projects</a>
             </nav>
         </header>
+
+        @include('partials.header-bar')
+
 
         <div class="[&_span]:inline-block my-10 font-[Limelight] font-[400] text-pretty leading-10 px-10  ">
             <h1 class=" text-8xl font-bold text-black border-dashed border-b-2 border-gray-400 pb-5 mb-10">Nick Ashley: </h1>

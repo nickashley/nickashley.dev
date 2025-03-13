@@ -10,6 +10,10 @@ Route::get('/', function () {
 Route::get('/projects', function () {
     return view('projects');
 })->name('projects');
+Route::get('/projects/tetrashift', function () {
+    return view('projects.tetrashift');
+})->name('projects.tetrashift');
+
 
 
 Route::view('dashboard', 'dashboard')
