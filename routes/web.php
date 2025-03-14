@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Livewire\Volt\Volt;
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,6 +17,5 @@ Route::get('/projects', function () {
 Route::get('/projects/tetrashift', function () {
     return view('projects.tetrashift');
 })->name('projects.tetrashift');
-
 
 require __DIR__.'/auth.php';
