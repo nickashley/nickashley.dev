@@ -90,7 +90,7 @@
             <span>Skier,</span>
             <span>Wakeboarder,</span>
             <span>Poker Player,</span>
-            <span>Board Game Enthusist,</span>
+            <span>Board Game Enthusist</span>
         </h1>
     </div>
 </x-layouts.main>
