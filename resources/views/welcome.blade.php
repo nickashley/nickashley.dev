@@ -37,8 +37,7 @@
             <span>Git,</span>
             <span>NPM,</span>
             <span>Composer,</span>
-            <span>CI/CD</span>
-            <span>Github Actions</span>
+
         </h1>
         <h1 class="inline text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-indigo-900">
             <span>PHP,</span>
@@ -59,6 +58,8 @@
             <span>Apache,</span>
             <span>AWS,</span>
             <span>Git,</span>
+            <span>CI/CD,</span>
+            <span>Github Actions,</span>
         </h1>
         <h1 class="inline text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-green-900">
             <span>Learner,</span>
