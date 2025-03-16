@@ -1,7 +1,7 @@
 <x-layouts.main title="Nick Ashley">
-    <div class="[&_span]:inline-block my-10 font-[Limelight] font-[400] text-pretty leading-6 sm:leading-8 md:leading-10 lg:leading-12 xl:leading-14">
+    <div class="[&_span]:inline-block my-18 font-[Limelight] font-[400] text-pretty leading-6 sm:leading-8 md:leading-10 lg:leading-12 xl:leading-14">
         <h1 class="inline text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-950">
-            <span class="underline">Technical Co-Founder,</span>
+            <span>Technical Co-Founder,</span>
             <span>CTO,</span>
             <span>Senior Engineer,</span>
             <span>Developer,</span>
@@ -9,7 +9,7 @@
             <span>Code-Monkey</span>
         </h1>
         <h1 class="inline text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-800">
-            <a href="#" class=" font-bold underline hover:bg-blue-100">Laravel,</a>
+            <span>Laravel,</span>
             <span>Livewire,</span>
             <span>AlpineJS,</span>
             <span>Tailwind,</span>
@@ -37,7 +37,6 @@
             <span>Git,</span>
             <span>NPM,</span>
             <span>Composer,</span>
-
         </h1>
         <h1 class="inline text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-indigo-900">
             <span>PHP,</span>
@@ -79,7 +78,6 @@
             <span>Adventurous,</span>
             <span>Eager,</span>
         </h1>
-
         <h1 class="inline text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-orange-900">
             <span>Husband,</span>
             <span>Father,</span>

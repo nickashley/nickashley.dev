@@ -18,4 +18,12 @@ Route::get('/projects/tetrashift', function () {
     return view('projects.tetrashift');
 })->name('projects.tetrashift');
 
+Route::get('/projects/timedwords', function () {
+    return view('projects.timedwords');
+})->name('projects.timedwords');
+
+Route::get('/projects/20words', function () {
+    return view('projects.20words');
+})->name('projects.20words');
+
 require __DIR__.'/auth.php';
